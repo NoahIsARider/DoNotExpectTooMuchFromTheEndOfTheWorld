@@ -47,6 +47,8 @@ python app.py
 
 本模型基于Meta-Llama-3.1-8B-Instruct开发，原网址为：[https://www.modelscope.cn/search?search=Meta-Llama-3.1-8B-Instruct](https://www.modelscope.cn/search?search=Meta-Llama-3.1-8B-Instruct)
 
+数据集可以在该网站找到并且预览：[https://www.modelscope.cn/datasets/NoahIsARider/NoahIsACollector](https://www.modelscope.cn/datasets/NoahIsARider/NoahIsACollector)
+
 欢迎广大开发者和研究人员对本模型进一步研究改进。如有新想法、发现或改进建议，可通过提交 Pull Request 或 Issue 方式交流合作，共同推动模型发展应用。
 
 ## 八、注意事项
