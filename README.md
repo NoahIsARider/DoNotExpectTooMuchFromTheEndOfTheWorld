@@ -1,7 +1,63 @@
+### English
+# README
+
+## I. Model Overview
+This model is developed based on `LLM - Research/Meta - Llama - 3 - 8B - Instruct` and is applied to text generation tasks in the field of Natural Language Processing (NLP). It uses the Pytorch framework and follows the Apache License 2.0 open - source protocol.
+
+## II. Model Features and Advantages
+1. **High - quality Text Generation**: Through careful training and fine - tuning, it can meet various text generation needs.
+2. **Powerful Architecture Support**: Relying on a powerful basic model architecture, it performs well in language understanding and generation.
+
+## III. Dataset Introduction
+The dataset is stored in the `noah_dataset.json` file and focuses on key issues in the social and political fields. It has the following characteristics:
+1. **Focused and Diverse Themes**: It revolves around issues such as the split between the old and new left, the impact of migrant workers, and the refugee crisis, covering from macro - political theories to micro - social phenomena. For example, the split between the old and new left involves the geopolitical order after World War II and the differences between factions; the impact of migrant workers analyzes the changes in the European social structure due to labor mobility; the refugee crisis is analyzed from multiple perspectives such as the responses of various governments, deep - seated problems, and legal - theoretical dilemmas, providing materials for research in different fields.
+2. **Structured Q&A Format**: It is presented in the form of question - answer pairs. Each data item contains a clear question (`instruction` field) and a detailed answer (`output` field). This is not only convenient for the training, validation, and testing of question - answering systems but also allows researchers and users to quickly locate and obtain information on specific questions.
+3. **Rich and Detailed Content**: It covers a wide range of specific questions, such as the evolution of political ideas, the analysis of social phenomena, theoretical discussions, and the presentation of real - world problems. There are in - depth analyses of the old and new left and the refugee issue, meeting the needs of different research directions.
+4. **Great Practical Significance**: The topics involved are closely related to current social real - world problems, such as the multi - dimensional analysis of the refugee crisis and the exploration of the relationship between global capitalism and the refugee crisis, providing reference and theoretical support for understanding and researching real - world problems.
+5. **Potential Educational Value**: It can be used as an educational resource in schools and training institutions. For example, in political science and sociology courses, teachers can use the question - answer pairs to guide students to discuss and think, cultivating their critical thinking and problem - solving abilities.
+
+References include: *The End is Nigh: Europe, Refugees, and the Left*, *On History*, *Key Concepts of Deleuze*, *Foucault: Key Concepts*, *The Matrix of Visual Culture (Discussing Film Theory with Deleuze)*, *Amusing Ourselves to Death・The Disappearance of Childhood*, *Imagined Communities*
+
+## IV. Download and Installation
+
+Execute the command to clone the model repository:
+
+```
+git lfs install
+```
+
+```
+git clone [https://www.modelscope.cn/LLM - Research/Meta - Llama - 3.1 - 8B - Instruct.git](https://github.com/NoahIsARider/DoNotExpectTooMuchFromTheEndOfTheWorld.git
+```
+Use the existing dataset or replace it with your own dataset. Open the terminal in the folder `DoNotExpectTooMuchFromTheEndOfTheWorld` and execute the following to open the interactive interface:
+```
+python app.py
+```
+
+## V. Usage Example
+After the model is downloaded, it can be integrated into projects according to specific application scenarios. Call it according to the corresponding API or interface specifications to achieve the text generation function. For example, in a text - creation application, input prompt information or a theme, and the model will generate text content such as stories, articles, and dialogues. The `test.py` file is a usage example.
+
+## VI. Model Training and Optimization
+The model training uses advanced algorithms and technologies. It is trained and optimized with a large amount of text data to improve performance and generation quality. Specific training details and parameter settings can be adjusted and improved according to actual situations.
+
+## VII. Future Development and Contributions
+### Reference Websites
+The writing of the training script of this model can refer to: [https://github.com/datawhalechina/self - llm](https://github.com/datawhalechina/self - llm)
+
+This model is developed based on Meta - Llama - 3.1 - 8B - Instruct, and the original website is: [https://www.modelscope.cn/search?search=Meta - Llama - 3.1 - 8B - Instruct](https://www.modelscope.cn/search?search=Meta - Llama - 3.1 - 8B - Instruct)
+
+The dataset can be found and previewed on this website: [https://www.modelscope.cn/datasets/NoahIsARider/NoahIsACollector](https://www.modelscope.cn/datasets/NoahIsARider/NoahIsACollector)
+
+Developers and researchers are welcome to further study and improve this model. If you have new ideas, discoveries, or improvement suggestions, you can communicate and cooperate by submitting a Pull Request or an Issue to jointly promote the development and application of the model.
+
+## VIII. Precautions
+When using this model, ensure that the usage behavior complies with the requirements of the Apache License 2.0. Appropriately review and verify the content generated by the model to ensure its accuracy and reliability.
+
+### Chinese
 # README
 
 ## 一、模型概述
-本模型基于 `LLM-Research/Meta-Llama-3-8B-Instruct` 开发，应用于自然语言处理（NLP）领域的文本生成任务。采用 Pytorch 框架，遵循 Apache License 2.0 开源协议。
+本模型基于 `LLM - Research/Meta - Llama - 3 - 8B - Instruct` 开发，应用于自然语言处理（NLP）领域的文本生成任务。采用 Pytorch 框架，遵循 Apache License 2.0 开源协议。
 
 ## 二、模型特点与优势
 1. **高质量文本生成**：经精心训练和微调，能满足多种文本生成需求。
@@ -19,7 +75,6 @@
 
 ## 四、下载与安装
 
-
 执行命令克隆模型仓库：
 
 ```
@@ -27,7 +82,7 @@ git lfs install
 ```
 
 ```
-git clone [https://www.modelscope.cn/LLM-Research/Meta-Llama-3.1-8B-Instruct.git](https://github.com/NoahIsARider/DoNotExpectTooMuchFromTheEndOfTheWorld.git
+git clone [https://www.modelscope.cn/LLM - Research/Meta - Llama - 3.1 - 8B - Instruct.git](https://github.com/NoahIsARider/DoNotExpectTooMuchFromTheEndOfTheWorld.git
 ```
 使用已有数据集，或者替换成你自己的数据集，在文件夹DoNotExpectTooMuchFromTheEndOfTheWorld中打开终端并执行下面打开交互界面：
 ```
@@ -35,7 +90,6 @@ python app.py
 ```
 
 ## 五、使用示例
-
 模型下载完成后，可依据具体应用场景集成到项目中，按相应 API 或接口规范调用实现文本生成功能。如在文本创作应用中，输入提示信息或主题，模型生成故事、文章、对话等文本内容。test.py文件是一个使用实例
 
 ## 六、模型训练与优化
@@ -43,13 +97,13 @@ python app.py
 
 ## 七、未来发展与贡献
 ### 参考网站
-本模型训练脚本的编写可参考：[https://github.com/datawhalechina/self-llm](https://github.com/datawhalechina/self-llm)
+本模型训练脚本的编写可参考：[https://github.com/datawhalechina/self - llm](https://github.com/datawhalechina/self - llm)
 
-本模型基于Meta-Llama-3.1-8B-Instruct开发，原网址为：[https://www.modelscope.cn/search?search=Meta-Llama-3.1-8B-Instruct](https://www.modelscope.cn/search?search=Meta-Llama-3.1-8B-Instruct)
+本模型基于Meta - Llama - 3.1 - 8B - Instruct开发，原网址为：[https://www.modelscope.cn/search?search=Meta - Llama - 3.1 - 8B - Instruct](https://www.modelscope.cn/search?search=Meta - Llama - 3.1 - 8B - Instruct)
 
 数据集可以在该网站找到并且预览：[https://www.modelscope.cn/datasets/NoahIsARider/NoahIsACollector](https://www.modelscope.cn/datasets/NoahIsARider/NoahIsACollector)
 
 欢迎广大开发者和研究人员对本模型进一步研究改进。如有新想法、发现或改进建议，可通过提交 Pull Request 或 Issue 方式交流合作，共同推动模型发展应用。
 
 ## 八、注意事项
-使用本模型时，确保使用行为符合 Apache License 2.0 协议要求。对模型生成内容应适当审核验证，保证准确性和可靠性。 
+使用本模型时，确保使用行为符合 Apache License 2.0 协议要求。对模型生成内容应适当审核验证，保证准确性和可靠性。
