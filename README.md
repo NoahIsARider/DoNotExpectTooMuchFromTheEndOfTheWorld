@@ -1,3 +1,7 @@
+![image](https://github.com/user-attachments/assets/baba7406-33da-4353-a481-b9337cf47e4c)
+
+[DON'T EXPECT MUCH FROM THE END OF THE WORLD!!!](https://movie.douban.com/subject/35772577/)
+
 ### English
 # README
 
